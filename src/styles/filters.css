@@ -1,0 +1,30 @@
+.filters {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  
+  .filters select {
+    min-width: 220px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #dbe2ea;
+    background: white;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .filters select:focus {
+    border-color: #2563eb;
+  }
+  
+  @media (max-width: 768px) {
+    .filters {
+      flex-direction: column;
+    }
+  
+    .filters select {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f4f7fc;
+    font-family: Inter, Arial, sans-serif;
+    color: #1f2937;
+  }
+  
+  .container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 24px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #1e293b;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 16px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }

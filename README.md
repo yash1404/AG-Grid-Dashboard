@@ -1,16 +1,143 @@
-# React + Vite
+# AG Grid Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Employee Analytics Dashboard built using **React**, **Vite**, and **AG Grid**. The dashboard provides employee data visualization with filtering, sorting, pagination, CSV export, and summary statistics.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Employee Analytics Dashboard
+* AG Grid Integration
+* Sorting
+* Column Filtering
+* Floating Filters
+* Pagination
+* CSV Export
+* Responsive Design
+* Department, Location, and Status Filters
+* Summary Cards
+* Clean Dashboard UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Vite
+* AG Grid Community
+* CSS3
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Clone Repository
+
+```bash
+git clone https://github.com/yash1404/AG-Grid-Dashboard.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd AG-Grid-Dashboard
+```
+
+---
+
+## Install Dependencies
+
+Using npm:
+
+```bash
+npm install
+```
+
+---
+
+## Run Development Server
+
+```bash
+npm run dev
+```
+
+Vite will start the development server.
+
+Open the URL displayed in the terminal, typically:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+The production build will be generated inside the `dist` folder.
+
+---
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## Project Structure
+
+```text
+src
+│
+├── components
+│   ├── EmployeeGrid.jsx
+│   ├── Filters.jsx
+│   └── SummaryCards.jsx
+│
+├── data
+│   └── employees.js
+│
+├── styles
+│   ├── app.css
+│   ├── employeeGrid.css
+│   ├── filters.css
+│   └── summaryCards.css
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## AG Grid Features Implemented
+
+* Client-side Row Model
+* Sorting
+* Filtering
+* Floating Filters
+* Pagination
+* CSV Export
+* Responsive Column Layout
+* Custom Cell Rendering
+* Row Selection
+
+---
+
+## Scalability Considerations
+
+The dashboard has been designed with scalability in mind:
+
+* Memoized column definitions using `useMemo`
+* Memoized row data transformations
+* Reusable component structure
+* Separation of concerns
+* AG Grid client-side rendering optimizations
+* Easily extendable for API integration and larger datasets
+
+---
+
+## Author
+
+Yash Singh
+
+GitHub:
+https://github.com/yash1404

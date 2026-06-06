@@ -135,6 +135,10 @@ The dashboard has been designed with scalability in mind:
 
 ---
 
+## Dashboard Preview
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/92b124f2-2a01-4b07-8d18-b5e4c5cbf008" />
+
+
 ## Author
 
 Yash Singh

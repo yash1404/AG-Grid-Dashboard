@@ -131,6 +131,7 @@ function EmployeeGrid({ employees }) {
           rowSelection="multiple"
           animateRows
           domLayout="autoHeight"
+          rowHeight={40}
         />
       </div>
       </div>

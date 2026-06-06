@@ -64,8 +64,13 @@
   .ag-theme-quartz {
     --ag-header-background-color: #eff6ff;
     --ag-header-foreground-color: #1e293b;
-    --ag-header-height: 50px;
-    --ag-row-height: 48px;
+    --ag-row-height: 55px;
+    --ag-header-height: 55px;
     --ag-font-size: 14px;
     --ag-grid-size: 6px;
+  }
+
+  .ag-theme-quartz .ag-cell {
+    display: flex;
+    align-items: center;
   }
